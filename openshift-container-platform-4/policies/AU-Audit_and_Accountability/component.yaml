@@ -125,9 +125,11 @@
   implementation_status: planned
   narrative:
     - text: |
-        A control response is planned. Engineering progress can be tracked via:
+        Red Hat OpenShift supports three different audit policies which are
+        documented at:
+        https://docs.openshift.com/container-platform/4.7/security/audit-log-policy-config.html
 
-        https://issues.redhat.com/browse/CMP-157
+        At the moment, custom audit policies are not supported.
 
 - control_key: AU-3 (2)
   standard_key: NIST-800-53
